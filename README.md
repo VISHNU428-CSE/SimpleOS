@@ -1,4 +1,5 @@
-
+##Version
+v1.0-stable
 # SimpleOS – 32-bit x86 Educational Kernel
 
 ## Overview
@@ -24,11 +25,11 @@ It boots in protected mode and demonstrates core OS concepts including interrupt
 ```
 help
 clear 
-echo 
+echo <text>
 uptime 
 version 
 ls 
-cat
+cat <filename>
 ```
 ---
 ## Architecture
