@@ -1,5 +1,7 @@
-##Version
+# Version
+
 v1.0-stable
+
 # SimpleOS – 32-bit x86 Educational Kernel
 
 ## Overview
