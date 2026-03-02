@@ -1,3 +1,4 @@
+
 # SimpleOS – 32-bit x86 Educational Kernel
 
 ## Overview
@@ -20,8 +21,9 @@ It boots in protected mode and demonstrates core OS concepts including interrupt
 ---
 
 ## Shell Commands
+'''
 help clear echo uptime version ls cat
-
+'''
 ---
 ## Architecture
 Bootloader ↓ Kernel ├── IDT ├── PIC ├── PIT ├── Keyboard Driver ├── VGA Driver ├── Shell └── In-memory FS
@@ -31,3 +33,4 @@ Bootloader ↓ Kernel ├── IDT ├── PIC ├── PIT ├── Keyboa
 ```bash
 make
 qemu-system-i386 -kernel kernel.bin
+
