@@ -1,0 +1,14 @@
+# Build files
+build/
+*.o
+*.bin
+*.iso
+
+# Temporary
+*.log
+
+# QEMU
+qemu.log
+
+# OS junk
+.DS_Store
