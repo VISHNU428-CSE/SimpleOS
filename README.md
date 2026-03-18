@@ -52,3 +52,6 @@ Bootloader
 make
 qemu-system-i386 -kernel kernel.bin
 
+---
+## Demo
+![SimpleOS Demo](demo.png)
